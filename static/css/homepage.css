@@ -23,7 +23,7 @@ html {
     background-image: url(../image/Road.png);
     background-repeat: no-repeat;
     text-align:center;
-    background-size: cover;
+    background-size: contain;
 }
 
 
