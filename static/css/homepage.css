@@ -1,0 +1,201 @@
+html {
+    width: 100%;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+.img-header {
+    width: 100%;
+    padding-bottom: 13%;
+    margin-top: 1%; 
+    /*background-image: url(../image/mountain.jpg);*/
+    background-image: url(../image/Road.png);
+    background-repeat: no-repeat;
+    text-align:center;
+    background-size: cover;
+}
+
+
+
+.img-text-content {
+    font-family: Courier;
+    display: inline-block;
+    margin: 12.75% auto auto auto;
+    padding: 0px 0px;
+    background: rgba(11,52,79,0.60);
+    /*width: 330px;*/
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .img-text-content {
+        font-size: 14px;
+    }
+}
+
+
+.information-all {
+     margin-top: 5%;
+     margin-left: 10%;
+     margin-bottom: 0;
+     text-align:center;
+     width: 80%;
+     display: inline-block;
+     vertical-align: top;
+     /*background: rgba(11,52,79,0.60);*/
+}
+
+
+
+.col-left {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 34%;
+}
+@media screen and (max-width: 800px) {
+    .col-left {
+        width: 60%;
+    }
+}
+
+.col-right {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    padding-top: 20px;
+}
+@media screen and (max-width: 800px) {
+    .col-right {
+        width: 95%;
+    }
+}
+
+.Profile-pic {
+    width: 74%;
+    /*height: 160px;*/
+}
+
+.title {
+    margin: 3% 0; 
+    font-weight: bold;
+    font-size: 22px;
+    color: #022643;
+    letter-spacing: 1.14px;
+}
+
+@media screen and (max-width: 800px) {
+    .title {
+        font-size: 14px;
+    }
+}
+
+
+.education, .email {
+    margin: 3% 0; 
+    font-weight: bold;
+    font-size: 19px;
+    color: #022643;
+    letter-spacing: 1.14px;
+}
+
+@media screen and (max-width: 800px) {
+    .education, .email {
+        font-size: 12px;
+    }
+}
+
+
+.sections {
+    color: #666;
+    margin-bottom: 5.5%;
+    /*background: rgba(11,52,79,0.20);*/
+}
+
+.section-only-content {
+    margin: 1.5% 0; 
+    /*font-weight: bold;*/
+    font-size: 16px;
+    color: #022643;
+    letter-spacing: 1.0px;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 800px) {
+    .section-only-content {
+        font-size: 12px;
+    }
+}
+
+
+
+h2 {
+    margin-bottom: 0px;
+    padding-bottom: 0.5%;
+    color: #022643;
+    /*font-size: 24px;*/
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        font-size: 14px;
+    }
+}
+
+hr {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.section-ul {
+    margin: 1.5% 0; 
+    /*font-weight: bold;*/
+    font-size: 16px;
+    color: #022643;
+    letter-spacing: 1.0px;
+}
+
+@media screen and (max-width: 800px) {
+    .section-ul {
+        font-size: 12px;
+    }
+}
+
+
+li {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    line-height: 150%;
+}
+
+
+.string_under_h2 {
+height: 2px;    
+background: linear-gradient(to right,rgba(2,38,67, 0.6),50%, rgba(2,38,67,0.05));
+}
+
+.icon {
+  color: rgba(2,38,67, 0.8)
+
+}
+
