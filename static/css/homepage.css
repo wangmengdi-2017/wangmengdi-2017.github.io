@@ -130,6 +130,10 @@ html {
     /*background: rgba(11,52,79,0.20);*/
 }
 
+.sections a{color: #022643}
+.sections a:visited{color: #022643}
+
+
 .section-only-content {
     margin: 1.5% 0; 
     /*font-weight: bold;*/
